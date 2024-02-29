@@ -3,7 +3,7 @@ body{
     font-optical-sizing: auto;
 }
 
-/* header styles */
+/* nav related styles */
 h3.nav-title {
     color: #181818;
     font-size: 45px;
@@ -14,6 +14,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 span.text-primary {
@@ -42,4 +43,17 @@ button.btn-primary {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+/* header related styles */
+.header {
+    background-color: #fff8f3;
+}
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+img.profile-pic {
+    width: 500px;
 }
