@@ -73,6 +73,11 @@ img.profile-pic {
     margin-top: 5px;
     margin-bottom: 20px
 }
+/* Main section styles */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* About section styles */
 .about {
     padding: 130px;
@@ -90,4 +95,11 @@ img.profile-pic {
     color: #757575;
     text-align: center;
     font-size: 18px;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
 }
